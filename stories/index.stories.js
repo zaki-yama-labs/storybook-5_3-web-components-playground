@@ -1,13 +1,13 @@
 import { html } from 'lit-html';
 
-// import '../my-component.js';
+import '../my-element.js';
 
 export default {
   title: 'Demo',
 };
 
 export const Heading = () => html`
-  <h1>Hello World</h1>
+  <my-element message="Hi!" />
 `;
 
 export const SettingProperties = () => html`
