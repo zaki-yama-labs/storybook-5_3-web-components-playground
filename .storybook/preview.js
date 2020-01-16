@@ -3,12 +3,12 @@
 import {
   configure,
   addParameters,
-  // setCustomElements,
+  setCustomElements,
 } from '@storybook/web-components';
 
-// import customElements from '../custom-elements.json';
+import customElements from '../custom-elements.json';
 
-// setCustomElements(customElements);
+setCustomElements(customElements);
 
 addParameters({
   docs: {
