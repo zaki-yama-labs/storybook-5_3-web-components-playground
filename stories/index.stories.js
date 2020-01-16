@@ -4,6 +4,7 @@ import '../my-element.js';
 
 export default {
   title: 'Demo',
+  component: 'my-element'
 };
 
 export const Heading = () => html`
