@@ -1,0 +1,23 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "my-element",
+      "attributes": [
+        {
+          "name": "message",
+          "type": "string",
+          "default": "\"Hello world! From my-element\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "message",
+          "attribute": "message",
+          "type": "string",
+          "default": "\"Hello world! From my-element\""
+        }
+      ]
+    }
+  ]
+}
